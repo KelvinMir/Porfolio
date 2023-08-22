@@ -1,0 +1,80 @@
+.tecs {
+    display: grid;
+    grid-template-areas:
+        "html css"
+        "js jsx";
+    list-style: none;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.tecs li {
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.tecs .html {
+    grid-area: html;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tecs .css{
+    grid-area: css;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tecs .js {
+    grid-area: js;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tecs .jsx {
+    grid-area: jsx;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.tecs .html::before,
+.tecs .css::before,
+.tecs .js::before,
+.tecs .jsx::before {
+    content: "";
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tecs .html::before {
+    background-image: url('/assets/icons/icons8-html.svg');
+}
+
+.tecs .css::before {
+    background-image: url('/assets/icons/icons8-css.svg');
+}
+
+.tecs .js::before {
+    background-image: url('/assets/icons/icons8-javascript.svg');
+}
+
+.tecs .jsx::before {
+    background-image: url('/assets/icons/react.svg');
+}
+
+

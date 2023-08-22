@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    font-family: 'open sans', 'sans-serif';
+
+}
+body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    
+}
+
+.main {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid azure;
+    border-radius: 1rem;
+   
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .main {
+        max-width: 1524px;
+        margin: 1rem auto;
+        width: 100vh;
+       
+    }
+    
+}

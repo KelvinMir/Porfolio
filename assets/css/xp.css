@@ -1,0 +1,17 @@
+.xp {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+} .xp li {
+    padding: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
