@@ -4,8 +4,6 @@
         "html css bootstrap"
         "js jsx github";
     list-style: none;
-    justify-content: center;
-    gap: 1rem;
 }
 
 .tecs li {
@@ -69,7 +67,7 @@
 .tecs .css::before,
 .tecs .js::before,
 .tecs .github::before,
-.tecs .bootstrap::before
+.tecs .bootstrap::before,
 .tecs .jsx::before {
     content: "";
     display: inline-block;
