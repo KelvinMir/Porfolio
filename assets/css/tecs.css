@@ -96,8 +96,6 @@
     background-image: url('../img/icons/github.svg');
 }
 .tecs .bootstrap::before {
-    width: 3.8rem;
-    height: 3.8rem;
     background-image: url('../img/icons/icons8-bootstrap-48.png');
 }
 
