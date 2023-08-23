@@ -3,7 +3,8 @@
     font-family: 'open sans', 'sans-serif';
 
 }
-.capa {
+head .capa {
+    width: 1.5rem;
     border-radius: 50%;
 }
 body {
