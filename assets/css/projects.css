@@ -33,7 +33,7 @@
     content: "";
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/icons/github.svg');
+    background-image: url('../img/icons/github.svg');
     margin-right: .5rem;
 }
 

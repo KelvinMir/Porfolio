@@ -42,7 +42,7 @@
     vertical-align: middle;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/icons/icons8-html.svg');
+    background-image: url('../img/icons/icons8-html.svg');
 }
 .cursos .React::after{
     content: "";
@@ -54,7 +54,7 @@
     vertical-align: middle;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/icons/react.svg')
+    background-image: url('../img/icons/react.svg')
 }
 .cursos .JavaScript::after{
     content: "";
@@ -65,7 +65,7 @@
     vertical-align: middle;
     background-size: contain;
     background-repeat: no-repeat;
-    background-image: url('/assets/icons/icons8-javascript.svg');
+    background-image: url('../img/icons/icons8-javascript.svg');
 }
 @media only screen and (max-width: 768px) { 
     .education .title-education {

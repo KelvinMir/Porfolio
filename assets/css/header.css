@@ -51,10 +51,10 @@
 }
   
 .information .contact::before {
-    background-image: url('/assets/icons/contact.svg');
+    background-image: url('../img/icons/contact.svg');
 }
 .information .people::before {
-    background-image: url('/assets/icons/people.svg');
+    background-image: url('../img/icons/people.svg');
 }
 .information .wpp a {
     color: aliceblue;
@@ -63,7 +63,7 @@
     text-decoration: underline;
 }
 .information .wpp::before {
-    background-image: url('/assets/icons/wpp.svg');
+    background-image: url('../img/icons/wpp.svg');
 }
 .information .group a {
     color: aliceblue;
@@ -72,7 +72,7 @@
     text-decoration: underline;
 }
 .information .group::before {
-    background-image: url('/assets/icons/group.png');
+    background-image: url('../img/icons/group.png');
 }
 
 @media only screen and (min-width: 768px) {

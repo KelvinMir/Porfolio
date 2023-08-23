@@ -43,7 +43,7 @@
     width: 1.5rem;
     height: 1.5rem;
     background-size: contain;
-    background-image: url('/assets/icons/set.svg');
+    background-image: url('../img/icons/set.svg');
     background-repeat: no-repeat;
     transition: .30s;
 

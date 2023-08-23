@@ -62,19 +62,19 @@
 }
 
 .tecs .html::before {
-    background-image: url('/assets/icons/icons8-html.svg');
+    background-image: url('../img/icons/icons8-html.svg');
 }
 
 .tecs .css::before {
-    background-image: url('/assets/icons/icons8-css.svg');
+    background-image: url('../img/icons/icons8-css.svg');
 }
 
 .tecs .js::before {
-    background-image: url('/assets/icons/icons8-javascript.svg');
+    background-image: url('../img/icons/icons8-javascript.svg');
 }
 
 .tecs .jsx::before {
-    background-image: url('/assets/icons/react.svg');
+    background-image: url('../img/icons/react.svg');
 }
 
 
