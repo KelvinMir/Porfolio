@@ -69,6 +69,7 @@
 .tecs .css::before,
 .tecs .js::before,
 .tecs .github::before,
+.tecs .bootstrap::before
 .tecs .jsx::before {
     content: "";
     display: inline-block;
@@ -93,16 +94,12 @@
 .tecs .jsx::before {
     background-image: url('../img/icons/react.svg');
 }
-.tecs .github::before {
-    width: 3.7rem;
-    height: 3.7rem;
-    content: "";
-    display: inline-block;
-    background-size: contain;
-    background-repeat: no-repeat;
+.tecs .github::before { 
     background-image: url('../img/icons/github.svg');
 }
 .tecs .bootstrap::before {
+    width: 3.8rem;
+    height: 3.8rem;
     background-image: url('../img/icons/icons8-bootstrap-48.png');
 }
 
