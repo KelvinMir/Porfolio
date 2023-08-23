@@ -1,8 +1,8 @@
 .tecs {
     display: grid;
     grid-template-areas:
-        "html css"
-        "js jsx";
+        "html css boot"
+        "js jsx github";
     list-style: none;
     justify-content: flex-start;
     gap: 1rem;
@@ -48,10 +48,28 @@
     
     
 }
+.tecs .bootstrap {
+    grid-area: boot;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.tecs .github {
+    grid-area: github;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
 
 .tecs .html::before,
 .tecs .css::before,
 .tecs .js::before,
+.tecs .github::before,
+.tecs .bootstrap::before,
 .tecs .jsx::before {
     content: "";
     display: inline-block;
@@ -75,6 +93,12 @@
 
 .tecs .jsx::before {
     background-image: url('../img/icons/react.svg');
+}
+.tecs .github::before {
+    background-image: url('../img/icons/github.svg');
+}
+.tecs .bootstrap::before {
+    background-image: url('../img/icons/icons8-bootstrap-48.png');
 }
 
 
