@@ -3,6 +3,9 @@
     font-family: 'open sans', 'sans-serif';
 
 }
+.capa {
+    border-radius: 50%;
+}
 body {
     background-color: black;
     color: rgb(255, 255, 255);
