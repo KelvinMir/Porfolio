@@ -69,7 +69,6 @@
 .tecs .css::before,
 .tecs .js::before,
 .tecs .github::before,
-.tecs .bootstrap::before,
 .tecs .jsx::before {
     content: "";
     display: inline-block;
@@ -95,6 +94,8 @@
     background-image: url('../img/icons/react.svg');
 }
 .tecs .github::before {
+    width: 3.7rem;
+    height: 3.7rem;
     background-image: url('../img/icons/github.svg');
 }
 .tecs .bootstrap::before {
