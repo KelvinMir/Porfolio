@@ -1,0 +1,79 @@
+.education {
+    display:grid;
+    grid-template-areas:
+     "cursos tecnologias";
+    
+    padding: 0 1rem 1rem 1rem;
+
+}
+
+.education  .cursos {
+    grid-area: cursos;
+    list-style: none;
+} 
+.cursos li {
+    padding: 0.5rem;
+    margin-right: 20px;
+}
+
+.cursos .tecnologias {
+    grid-area: tecnologias;
+    list-style: none;
+    
+}
+.cursos .title-education{
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    
+}
+
+.cursos .Html {
+    display: block;
+    justify-content: flex-start;
+    
+}
+
+.cursos .Html::after{
+    content: "  ";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 30px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/icons/icons8-html.svg');
+}
+.cursos .React::after{
+    content: "";
+    display: inline-block;
+    justify-content: flex-end;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 30px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/icons/react.svg')
+}
+.cursos .JavaScript::after{
+    content: "";
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 30px;
+    vertical-align: middle;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('/assets/icons/icons8-javascript.svg');
+}
+@media only screen and (max-width: 768px) { 
+    .education .title-education {
+        margin-bottom: 0.5rem;
+        font-size: 1.15rem;
+    }
+    .education  .cursos {
+        font-size: 0.8rem;
+    } 
+
+}
