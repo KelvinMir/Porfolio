@@ -1,7 +1,7 @@
 .tecs {
     display: grid;
     grid-template-areas:
-        "html css boot"
+        "html css bootstrap"
         "js jsx github";
     list-style: none;
     justify-content: center;
@@ -49,7 +49,7 @@
     
 }
 .tecs .bootstrap {
-    grid-area: boot;
+    grid-area: bootstrap;
     text-align: center;
     display: flex;
     flex-direction: column;
