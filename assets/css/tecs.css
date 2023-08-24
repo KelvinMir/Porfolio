@@ -5,7 +5,9 @@
         "js jsx github";
     list-style: none;
 }
-
+ul.tecs {
+    padding-inline-start: 0;
+}
 .tecs li {
     padding: 1rem;
     font-size: 1rem;
